@@ -32,12 +32,17 @@ body {
     flex-direction: column;
     cursor: url('Normal.cur'), pointer;
 }
+.img{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
 
 .nezu{
     width: 35%;
-    margin-left: 260px;
-    margin-top: 70;
-    text-align: center;
+    margin: auto;
     margin-bottom: 10px;
     cursor: url('Normal.cur'), pointer;
 }
@@ -87,5 +92,17 @@ a:link{
     font-size: 17px;
     font-style: italic;
     margin-bottom: 20px;
+    cursor: url('Normal.cur'), pointer;
+}
+
+.texto3{
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 17px;
+    margin-bottom: auto;
     cursor: url('Normal.cur'), pointer;
 }
