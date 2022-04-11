@@ -99,3 +99,39 @@ body {
     font-size: 17px;
     margin-bottom: auto;
 }
+.texto4{
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 18px;
+    margin-bottom: auto;
+}
+
+
+
+@keyframes minhaAnimacao2 {
+    0% {
+      color: #ffffff;
+    }
+    50% {
+      color: red;
+      font-size: 20px;
+    }
+    100% {
+        color: #ffffff;
+        font-size: 18px;
+      }
+}
+  
+
+.testeboy2:hover{
+    animation-name: minhaAnimacao2;
+    animation-duration: 3000ms;
+    animation-iteration-count:infinite ;
+    animation-delay: 100ms;
+    
+}
+    
