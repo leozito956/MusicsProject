@@ -12,7 +12,6 @@ body {
     margin:0;
 }
 
-
 .inicio {
     background-color: black;
     margin-left: auto;
@@ -48,7 +47,9 @@ body {
     width: 35%;
     margin: auto;
     margin-bottom: 10px;
+    cursor: url('../img/Link.cur'), pointer;
 }
+
 
 #gym {
     display: none;
@@ -108,11 +109,32 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 18px;
     margin-bottom: auto;
+    
+}
+
+.guria{
+    width: 53%;
+    margin: auto;
+    margin-bottom: 77px;
+    cursor: url('../img/Link.cur'), pointer;
 }
 
 
+.testeboy{
+    display: block;
+    height: 27px;
+    cursor: url('../img/Link.cur'), pointer;
+}
 
-@keyframes minhaAnimacao2 {
+.testeboy:hover{
+    animation-name: minhaAnimacao;
+    animation-duration: 3000ms;
+    animation-iteration-count:infinite ;
+    animation-delay: 100ms;
+    
+}
+
+@keyframes minhaAnimacao {
     0% {
       color: #ffffff;
     }
@@ -125,13 +147,22 @@ body {
         font-size: 18px;
       }
 }
-  
 
-.testeboy2:hover{
-    animation-name: minhaAnimacao2;
-    animation-duration: 3000ms;
+.guria{
+    animation-name: guria;
+    animation-duration: 8000ms;
     animation-iteration-count:infinite ;
     animation-delay: 100ms;
     
 }
-    
+
+@keyframes guria{
+
+    50% {
+      filter:invert(100%);
+    }
+    100% {
+        filter:invert(0%);
+      }
+}
+  
