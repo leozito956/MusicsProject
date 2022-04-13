@@ -43,8 +43,22 @@ body {
     margin-top: 100px;
 }
 
+.images2{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+}
+
 .nezu{
     width: 35%;
+    margin: auto;
+    margin-bottom: 10px;
+    cursor: url('../img/Link.cur'), pointer;
+}
+.rikka{
+    width: 50%;
     margin: auto;
     margin-bottom: 10px;
     cursor: url('../img/Link.cur'), pointer;
@@ -68,8 +82,10 @@ body {
 .gym3{
     width: 100;
     height: 20;
-    
+
 }
+
+/* audio::-webkit-media-controls-panel {background-color: red;} */
 
 
 .texto{
@@ -109,6 +125,8 @@ body {
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 18px;
     margin-bottom: auto;
+    display: block;
+    height: 24px;
     
 }
 
@@ -121,25 +139,43 @@ body {
 
 
 .testeboy{
-    display: block;
     height: 27px;
     cursor: url('../img/Link.cur'), pointer;
+    animation-name: minhaAnimacao1;
+    animation-duration: 3100ms;
+    animation-iteration-count:infinite ;
+    animation-delay: 100ms;
 }
 
+
 .testeboy:hover{
-    animation-name: minhaAnimacao;
-    animation-duration: 3000ms;
+    animation-name: minhaAnimacao2;
+    animation-duration: 3100ms;
     animation-iteration-count:infinite ;
     animation-delay: 100ms;
     
 }
 
-@keyframes minhaAnimacao {
+@keyframes minhaAnimacao1 {
     0% {
       color: #ffffff;
     }
     50% {
       color: red;
+      font-size: 20px;
+    }
+    100% {
+        color: #ffffff;
+        font-size: 18px;
+      }
+}
+
+@keyframes minhaAnimacao2 {
+    0% {
+      color: #ffffff;
+    }
+    50% {
+      color: #00FFFF;
       font-size: 20px;
     }
     100% {
