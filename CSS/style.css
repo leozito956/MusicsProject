@@ -58,7 +58,7 @@ body {
     cursor: url('../img/Link.cur'), pointer;
 }
 .rikka{
-    width: 50%;
+    width: 45%;
     margin: auto;
     margin-bottom: 10px;
     cursor: url('../img/Link.cur'), pointer;
@@ -135,6 +135,16 @@ body {
     margin: auto;
     margin-bottom: 77px;
     cursor: url('../img/Link.cur'), pointer;
+}
+
+.creator{
+    margin: auto;
+    color: aliceblue;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 25px;
+    text-align: center;
+    height: 100px;
+
 }
 
 
