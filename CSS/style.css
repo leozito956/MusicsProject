@@ -159,9 +159,9 @@ body {
 
 .inte{
     width: 5%;
-    position: absolute;
-    right: 0px;
-    
+    position: fixed;
+    top:92%;
+    left: 95%;
 }
 
 
