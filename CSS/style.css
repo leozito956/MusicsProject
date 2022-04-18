@@ -162,6 +162,7 @@ body {
     position: fixed;
     top:92%;
     left: 95%;
+    cursor: url('../img/Link.cur'), pointer;
 }
 
 
