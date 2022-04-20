@@ -156,6 +156,18 @@ body {
     height: 10px;
 }
 
+.redes{
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: aliceblue;
+    font-size: 17px;
+    margin-top: 20px;
+
+}
+
 
 .inte{
     width: 5%;
